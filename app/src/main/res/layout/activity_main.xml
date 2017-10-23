@@ -7,12 +7,20 @@
     tools:context="com.example.a2dam.actividad3_di.MainActivity">
 
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </ScrollView>
+
     <TextView
         android:id="@+id/Album1"
         android:layout_width="160dp"
         android:layout_height="130dp"
         android:layout_marginTop="23dp"
-        android:background="@android:color/holo_red_dark"
+        android:background="@drawable/borde_album1"
         android:gravity="center"
         android:text="Album1"
         android:textColor="@android:color/background_light"
@@ -26,10 +34,8 @@
         android:layout_height="130dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Album1"
-        android:layout_marginBottom="10dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:background="@android:color/holo_orange_light"
+        android:background="@drawable/borde_album2"
         android:gravity="center"
         android:text="Album2"
         android:textColor="@android:color/background_dark"
@@ -42,8 +48,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Album2"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:background="?attr/colorButtonNormal"
+        android:background="@drawable/borde_album3"
         android:gravity="center"
         android:text="Album3"
         android:textColor="@android:color/background_dark"
@@ -365,4 +370,5 @@
 
     </GridLayout>
     </ScrollView>
+
 </RelativeLayout>
